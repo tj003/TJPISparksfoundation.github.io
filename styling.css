@@ -1,0 +1,87 @@
+body {
+  background-image: url("donate4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*For the tagline*/
+.container {
+  margin-top: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading {
+  /*margin-top: 50px;*/
+
+  /*text-align: center;*/
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.btn1 {
+  margin-top: 10px;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 0;
+  cursor: pointer;
+  border: ridge;
+}
+.form-group {
+  color: #0b161a;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.heading1 {
+  text-align: center;
+}
+footer {
+  /* background-color: rgb(52, 58, 64);*/
+  color: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.btn1 a {
+  color: white;
+}
+.btn1 a:hover {
+  color: white;
+}
+.btn2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.btn2 a {
+  color: white;
+}
+.btn2 a:hover {
+  color: white;
+}
+/* Style the form icons */
+.icon {
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .heading {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+form {
+  border: ridge;
+  border-radius: 25px;
+  border-color: #e4a35d;
+  padding: 20px;
+}
