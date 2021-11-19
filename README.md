@@ -1,4 +1,12 @@
 # TJPISparksfoundation.github.io
-This project is for internship with Spark foundationhttps://internship.thesparksfoundation.info/
-Domain-Web development
-Topic-Payment Integration Gateway.
+Payment Gateway integration
+
+A Web Application used to donate money where payment gateway is integrated..
+
+There is a simple donate button on homepage. On clicking the donate button, the user will land on the payment page where user can select the amount to be paid,
+
+3rd Party Used : Razorpay
+
+Once the payment is done and invoice will be generated and email will be sent to the user for the payment received. The invoice will contain the amount.
+
+Check website here :https://tj003.github.io/TJPISparksfoundation.github.io/index.html
